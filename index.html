@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="min-h-screen bg-gradient">
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="gradient-text">Hi, I'm [Your Name]</h1>
+          <p class="subtitle">Full Stack Developer crafting beautiful and functional web experiences</p>
+          <div class="button-group">
+            <a href="#contact" class="button primary">Get in Touch</a>
+            <a href="#projects" class="button secondary">View Projects</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2>What I Do</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="icon code-icon"></div>
+            <h3>Frontend Development</h3>
+            <p>Creating responsive and intuitive user interfaces with modern frameworks and tools.</p>
+          </div>
+          <div class="skill-card">
+            <div class="icon database-icon"></div>
+            <h3>Backend Development</h3>
+            <p>Building scalable server-side applications and APIs with robust architecture.</p>
+          </div>
+          <div class="skill-card">
+            <div class="icon palette-icon"></div>
+            <h3>UI/UX Design</h3>
+            <p>Designing beautiful and functional interfaces that users love to interact with.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Projects will be dynamically inserted here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+          <a href="mailto:your.email@example.com" class="contact-link">
+            <div class="icon mail-icon"></div>
+            your.email@example.com
+          </a>
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <div class="icon github-icon"></div>
+            </a>
+            <a href="#" class="social-link">
+              <div class="icon linkedin-icon"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© <span id="year"></span> [Your Name]. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
